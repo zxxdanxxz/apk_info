@@ -1,0 +1,28 @@
+name: apk_info
+
+description: Flutter package to get information about the apk file in the device's internal memory.
+
+version: 1.0.0
+
+repository: https://github.com/zxxdanxxz/apk_info
+homepage: https://github.com/zxxdanxxz/apk_info
+
+environment:
+  sdk: '>=3.0.0 <=3.6.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.flutter.plugins.apk_info
+        pluginClass: ApkInfoPlugin

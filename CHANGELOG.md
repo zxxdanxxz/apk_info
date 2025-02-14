@@ -9,3 +9,6 @@ Allows to get the following information about the apk file in the device's inter
 - compile SDK version
 - min SDK version
 - target SDK version
+
+## 1.0.1
+- dart max sdk <4.0.0

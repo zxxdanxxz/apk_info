@@ -12,3 +12,6 @@ Allows to get the following information about the apk file in the device's inter
 
 ## 1.0.1
 - dart max sdk <4.0.0
+
+## 1.0.2
+- Removed mention of Registrar class in the plugin to fix *Registrar not found* issue.
